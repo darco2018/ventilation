@@ -1,9 +1,36 @@
 .jumbotron {
-  background: url("/src/img/jumbotron-ventilation.jpg") center center no-repeat;
-  background-color: #cccccc;
-
-  background-size: cover;
   position: relative;
+  background-color: transparent !important;
+  background-color: gray;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.small-text {
+  font-size: 3rem;
+  position: relative;
+  top: -25px;
+}
+
+#empty-div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  min-height: 550px;
+  width: 100%;
+  opacity: 0.2;
+  background-image: url("/src/img/jumbotron-ventilation_2.jpg");
+  z-index: -1;
+  /*  height: 100%; */
+}
+
+#custom-container {
+  margin-top: 55px;
+  margin-bottom: 200px;
+  background-color: transparent;
+  height: 20vh;
 }
 
 .form-inline {
@@ -18,10 +45,10 @@
 
 .rotating {
   /* position: absolute;
-  top: 50%;
-  left: 50%;
-  
-  margin: -60px 0 0 -60px; */
+    top: 50%;
+    left: 50%;
+    
+    margin: -60px 0 0 -60px; */
   width: 30px;
   height: 30px;
   -webkit-animation: spin 4s linear infinite;
