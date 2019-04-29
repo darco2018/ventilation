@@ -24,9 +24,9 @@ h6 {
   color: var(--main-headline-color);
 }
 
-h1 {
+/* h1 {
   letter-spacing: 7px;
-}
+} */
 
 .color-accent {
   color: var(--accent-color);
@@ -53,7 +53,7 @@ h1 {
   left: 0;
   top: 0;
   background-size: cover;
-  min-height: 550px;
+  min-height: 470px;
   width: 100%;
   opacity: 0.2;
   background-image: url("/src/img/jumbotron-ventilation_2.jpg");
@@ -118,17 +118,58 @@ h1 {
   height: auto;
 }
 
-/* 
-.call-to-action {
-  border-left: 1px solid var(--accent-color);
+.call__phone {
+  /* border: 2px solid var(--accent-color); */
+  /* width: 133px; */
+  /* max-width: 133px; */
 }
+/* 
+
 
 .call__phone {
   border: 2px solid var(--accent-color);
-  max-width: 133px;
-}
+  }
 
 .title {
-  border: 3px solid yellow;
+  border: 1px solid red;
 }
  */
+
+.call-to-action {
+  width: 150px;
+  border-left: 3px solid var(--accent-color);
+}
+
+html {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 1.25rem;
+  }
+  .display-4 {
+    color: purple;
+  }
+}
+@media (min-width: 768px) {
+  /* html {
+    font-size: 1.5rem;
+  } */
+  .display-4 {
+    color: blue;
+  }
+}
+@media (min-width: 992px) {
+  /*   html {
+    font-size: 1.75rem;
+  } */
+  .display-4 {
+    color: orange;
+  }
+}
+@media (min-width: 1200px) {
+  /*   html {
+    font-size: 2rem;
+  } */
+}
