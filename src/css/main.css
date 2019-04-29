@@ -24,6 +24,10 @@ h6 {
   color: var(--main-headline-color);
 }
 
+h1 {
+  letter-spacing: 7px;
+}
+
 .color-accent {
   color: var(--accent-color);
 }
@@ -37,17 +41,14 @@ h6 {
   background-color: transparent !important;
   background-color: gray;
 }
-.uppercase {
-  text-transform: uppercase;
-}
 
-.small-text {
+.subheading {
   font-size: 3rem;
   position: relative;
   top: -25px;
 }
 
-#empty-div {
+#overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -60,7 +61,7 @@ h6 {
   /*  height: 100%; */
 }
 
-#custom-container {
+#jumbo-inner-wrapper {
   margin-top: 55px;
   margin-bottom: 200px;
   background-color: transparent;
@@ -116,3 +117,18 @@ h6 {
   width: 100%;
   height: auto;
 }
+
+/* 
+.call-to-action {
+  border-left: 1px solid var(--accent-color);
+}
+
+.call__phone {
+  border: 2px solid var(--accent-color);
+  max-width: 133px;
+}
+
+.title {
+  border: 3px solid yellow;
+}
+ */

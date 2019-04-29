@@ -76,41 +76,59 @@
       </nav>
     </header>
     <!-- // [END Header and Primary navigation ]-->
-    <!-- // [START content]  -->
-    <main role="main">
-      <section class="jumbotron text-center ">
-        <div id="empty-div"></div>
-        <div id="custom-container" class="container">
-          <div class="main-text text-left ml-5 ">
-            <h1 class="display-2 font-weight-bolder ">
-              <span class="uppercase">wentylacja</span> <br />
-              <span class="small-text uppercase">akcesoria i części</span>
-            </h1>
-            <h1 class=" color-accent text-center">
-              ... aby w domu pachniało lasem
-            </h1>
-          </div>
-          <div class="call-to-action text-right mr-5">
-            <div class="text-right">
-              <p class="lead ">
-                Zapytaj teraz<br />o nasze<br />rabaty i promocje
-              </p>
-              <i class="fas fa-mobile-alt fa-2x text-dark bg-accent"></i>
-              <span class="color-accent font-weight-bolder mb-3 ml-1"
-                >600 179 368</span
-              >
-            </div>
-          </div>
-        </div>
-      </section>
 
+    <main role="main">
+      <!-- // [START jumbotron]  -->
+      <section class="jumbotron text-center">
+        <div id="overlay"></div>
+        <div id="jumbo-inner-wrapper" class="container">
+          <div class="row">
+            <!-- // [START page-title]  -->
+            <div class="col-md-8 title">
+              <h1 class="display-1 text-uppercase font-weight-bolder ml-5">
+                <span>wentylacja</span> <br />
+                <span class="subheading">akcesoria i&nbspczęści</span>
+              </h1>
+            </div>
+            <!-- // [END page-title]  -->
+            <div class="col-md-2"></div>
+            <!-- // [START cto]  -->
+            <div class="col-md-2 call-to-action">
+              <p class="lead text-left  mt-2">
+                Zapytaj<br />
+                teraz<br />o nasze<br />rabaty<br />
+                i promocje
+              </p>
+              <div class="call__phone text-left rounded">
+                <i
+                  class="fas fa-mobile-alt fa-2x color-accent align-middle"
+                ></i>
+                <span class="color-accent font-weight-bolder  ml-1"
+                  >600 179 368</span
+                >
+              </div>
+            </div>
+            <!-- // [END cto]  -->
+          </div>
+
+          <!-- // [START slogan]  -->
+          <h1 class=" color-accent text-center mt-5 pt-1">
+            Aby w domu pachniało lasem...
+          </h1>
+          <!-- // [END slogan]  -->
+        </div>
+        <!-- end row -->
+      </section>
+      <!-- // [END jumbotron]  -->
+      <!-- // [START summary]  -->
       <section id="summary" class="container mt-5 text-center">
         <h3 class="display-4">Trwałość w rozsądnej cenie</h3>
         <p class="lead ">
           Zaopatrujemy sklepy, budowy i klientow indywidualnych.
         </p>
       </section>
-
+      <!-- // [END summary]  -->
+      <!-- // [START cards panel]  -->
       <section id="cards-panel" class="container mt-5">
         <div class="card-deck">
           <div class="card border-0">
@@ -178,8 +196,9 @@
           </div>
         </div>
       </section>
+      <!-- // [END cards panel]  -->
     </main>
-    <!-- // [END content]  -->
+
     <!-- // [START Footer]  -->
     <footer
       id="page-footer"
