@@ -15,6 +15,12 @@ p {
   color: var(--main-para-color);
 }
 
+.subheading {
+  color: var(--main-headline-color);
+  position: relative;
+  top: -10px;
+}
+
 h1,
 h2,
 h3,
@@ -42,10 +48,8 @@ h6 {
   background-color: gray;
 }
 
-.subheading {
+.title-headline {
   font-size: 3rem;
-  position: relative;
-  top: -25px;
 }
 
 #overlay {
@@ -79,7 +83,7 @@ h6 {
   height: 20rem;
 }
 
-.rotating {
+.rotating-fan {
   /* position: absolute;
     top: 50%;
     left: 50%;
@@ -108,6 +112,11 @@ h6 {
   }
 }
 
+.slogan {
+  font-family: "Arizonia", cursive, sans-serif;
+  font-size: 230%;
+}
+
 .icon-container {
   width: 40px;
 }
@@ -130,11 +139,12 @@ h6 {
   border: 2px solid var(--accent-color);
   }
 
-  .title {
-  border: 1px solid red;
-}
-
+ 
  */
+
+.title-wrapper {
+  /* border: 1px solid red; */
+}
 
 .call-to-action {
   width: 150px;
@@ -150,7 +160,7 @@ html {
     font-size: 1rem;
   }
   .display-4 {
-    color: blue;
+    /* color: blue; */
   }
 
   #jumbo-inner-wrapper {
@@ -163,14 +173,19 @@ html {
   #overlay {
     min-height: 470px;
   }
+
+  .subheading {
+    font-size: 220%;
+    top: -20px;
+  }
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .display-4 {
-    color: orange;
+    /* color: orange; */
   }
   .call-to-action {
     width: 150px;
@@ -184,16 +199,34 @@ html {
     height: 18vh; */
   }
 
-  .title {
+  .title-wrapper {
     line-height: 200%;
+  }
+
+  h1 {
+    font-size: 290%;
+  }
+
+  .subheading {
+    font-size: 230%;
+  }
+
+  .rotating-fan {
+    width: 35px;
+    height: 35px;
   }
 }
 @media (min-width: 992px) {
-  /*   html {
-    font-size: 1.75rem;
-  } */
+  html {
+    font-size: 1.3rem;
+  }
   .display-4 {
     color: black;
+  }
+
+  .rotating-fan {
+    width: 40px;
+    height: 40px;
   }
 }
 @media (min-width: 1200px) {
