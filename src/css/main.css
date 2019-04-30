@@ -112,6 +112,10 @@ h6 {
   }
 }
 
+.card {
+  min-width: 330px;
+}
+
 .slogan {
   font-family: "Arizonia", cursive, sans-serif;
   font-size: 230%;
@@ -227,6 +231,10 @@ html {
   .rotating-fan {
     width: 40px;
     height: 40px;
+  }
+
+  .card-title {
+    font-size: 170%;
   }
 }
 @media (min-width: 1200px) {
