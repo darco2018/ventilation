@@ -39,3 +39,34 @@ lib/: external dependencies (when included directly).
 node_modules/: includes libraries and dependencies for JS packages, used by Npm.
 vendor/: includes libraries and dependencies for PHP packages, used by Composer.
 bin/: files that get added to your PATH when installed.
+
+------------
+USEFUL LINKS:
+
+https://themestr.app/theme
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts
+
+https://www.fontsquirrel.com/fonts/list/language/polish
+
+https://www.fontsquirrel.com/tools/webfont-generator 
+
+https://google-webfonts-helper.herokuapp.com/fonts - download font locally tool
+
+https://css-tricks.com/snippets/css/using-font-face/
+
+https://developers.google.com/fonts/docs/getting_started
+
+https://cssnewbie.com/10-beautiful-css-text-effects/#.XMhe7NszaR0
+
+https://developers.google.com/fonts/faq
+
+http://font-combinator.com/
+
+
+
+https://everythingfonts.com/subsetter
+
+https://meowni.ca/font-style-matcher/
+
+https://blog.logrocket.com/how-to-use-web-fonts-in-css-a0326f4d6a4d
