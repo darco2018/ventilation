@@ -1,3 +1,23 @@
+/* arizonia-regular - latin-ext_latin */
+@font-face {
+  font-family: "Arizonia";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/arizonia-v9-latin-ext_latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Arizonia Regular"), local("Arizonia-Regular"),
+    url("../fonts/arizonia-v9-latin-ext_latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/arizonia-v9-latin-ext_latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/arizonia-v9-latin-ext_latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/arizonia-v9-latin-ext_latin-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/arizonia-v9-latin-ext_latin-regular.svg#Arizonia")
+      format("svg"); /* Legacy iOS */
+}
+
 :root {
   --main-bg-color: #f8f9fb;
   --main-para-color: #585a63;
@@ -79,8 +99,7 @@ h6 {
 
 .page-footer {
   /* background: lightgrey; */
-  background: #a6b0bc;
-  height: 20rem;
+  background: #d8dde3;
 }
 
 .rotating-fan {
@@ -153,6 +172,11 @@ h6 {
 .call-to-action {
   width: 150px;
   border-left: 3px solid var(--accent-color);
+}
+
+.copyright {
+  margin-top: 1rem;
+  font-size: 60%;
 }
 
 html {
