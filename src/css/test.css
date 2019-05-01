@@ -26,8 +26,13 @@ h6 {
   color: var(--headline-color);
 }
 
+.phone-num,
+.slogan,
+.company-name {
+  color: var(--accent-color);
+}
+
 /* Typography */
 .slogan {
   font-family: "Arizonia", cursive, sans-serif;
-  color: var(--accent-color);
 }
