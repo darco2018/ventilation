@@ -25,3 +25,9 @@ h5,
 h6 {
   color: var(--headline-color);
 }
+
+/* Typography */
+.slogan {
+  font-family: "Arizonia", cursive, sans-serif;
+  color: var(--accent-color);
+}
