@@ -1,0 +1,27 @@
+/* colors */
+
+:root {
+  --bg-color: #f8f9fb;
+  --paragraph-color: #585a63;
+  --headline-color: #1a1819;
+  --accent-color: #228b22;
+}
+
+body,
+nav,
+.card {
+  background: var(--bg-color);
+}
+
+p {
+  color: var(--paragraph-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--headline-color);
+}
