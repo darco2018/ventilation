@@ -39,8 +39,18 @@ h6 {
 }
 
 /* Typography */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
 .slogan {
   font-family: "Arizonia", cursive, sans-serif;
+}
+
+.main-heading,
+.sub-heading {
+  /* @import url('https://fonts.googleapis.com/css?family=Russo+One&subset=latin-ext'); */
+  font-family: "Russo One", sans-serif;
 }
 
 /* Rotating fan */
