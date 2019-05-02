@@ -115,15 +115,24 @@ html {
   .display-4 {
     font-size: 280%;
   }
+
+  .jumbotron {
+    margin-bottom: 1.6rem;
+    padding-bottom: 0;
+  }
 }
 
 @media (min-width: 576px) {
 }
 
 @media (min-width: 768px) {
-  /* html {
-    font-size: 1.2rem;
-  } */
+  html {
+    font-size: 1.1rem;
+  }
+
+  .display-4 {
+    font-size: 230%;
+  }
 }
 @media (min-width: 992px) {
   /* html {
@@ -144,7 +153,8 @@ html {
   border: 1px solid red;
 }
 
-.slogan-wrapper {
+.slogan-wrapper,
+.summary-content {
   border: 1px solid blue;
 }
 
