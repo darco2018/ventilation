@@ -135,15 +135,27 @@ html {
   }
 }
 @media (min-width: 992px) {
-  /* html {
+  html {
     font-size: 1.3rem;
   }
-   */
+
+  .overlay {
+    background-image: url("/src/img/jumbotron-lg.jpg");
+  }
+
+  .slogan.display-4 {
+    font-size: 300%;
+  }
 }
 @media (min-width: 1200px) {
   /*   html {
       font-size: 2rem;
     } */
+
+  .main-heading,
+  .sub-heading {
+    letter-spacing: 0.5rem;
+  }
 }
 /* test */
 /* 
