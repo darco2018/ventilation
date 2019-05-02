@@ -103,15 +103,21 @@ html {
   font-size: 0.7rem;
 }
 
-@media (min-width: 576px) {
-  /*  html {
-    font-size: 1rem;
-  } */
+.display-4 {
+  font-size: 290%;
+}
 
-  .overlay {
-    /*  background-image: url("/src/img/jumbotron-xs.jpg");
-    background-image: url("/src/img/jumbotron-lg.jpg"); */
+@media (min-width: 500px) {
+  html {
+    font-size: 0.9rem;
   }
+
+  .display-4 {
+    font-size: 280%;
+  }
+}
+
+@media (min-width: 576px) {
 }
 
 @media (min-width: 768px) {
