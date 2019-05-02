@@ -82,21 +82,69 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("/src/img/jumbotron-lg.jpg");
+  background-image: url("/src/img/jumbotron-xs.jpg");
   background-size: cover;
   z-index: -1;
   opacity: 0.2;
   width: 100%;
   /*  height: 100%; */
-  min-height: 470px;
+  min-height: 430px;
+  /* same as jumbotron-height below */
 }
 
 .jumbotron {
   position: relative;
   background-color: transparent !important;
   background-color: gray;
+  min-height: 430px;
 }
 
+html {
+  font-size: 0.7rem;
+}
+
+@media (min-width: 576px) {
+  /*  html {
+    font-size: 1rem;
+  } */
+
+  .overlay {
+    /*  background-image: url("/src/img/jumbotron-xs.jpg");
+    background-image: url("/src/img/jumbotron-lg.jpg"); */
+  }
+}
+
+@media (min-width: 768px) {
+  /* html {
+    font-size: 1.2rem;
+  } */
+}
+@media (min-width: 992px) {
+  /* html {
+    font-size: 1.3rem;
+  }
+   */
+}
+@media (min-width: 1200px) {
+  /*   html {
+      font-size: 2rem;
+    } */
+}
+/* test */
+/* 
+.slogan-outer-wrapper,
+.cto-wrapper,
+.title-wrapper {
+  border: 1px solid red;
+}
+
+.slogan-wrapper {
+  border: 1px solid blue;
+}
+
+.slogan {
+  background: yellow;
+} */
 /* ---------------------------------------------------------------------------- */
 .delicate-shadow {
   /* color: #fff; */
