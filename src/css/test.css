@@ -100,6 +100,14 @@ body {
   }
 }
 
+/* ----- windy company name --------- */
+
+#svg-wrapper {
+  margin: 0 auto;
+  padding-left: 10%;
+  display: none;
+}
+
 /* ---- overlay --------------------------------------------------------------- */
 
 .overlay {
@@ -173,6 +181,17 @@ html {
   .slogan.display-4 {
     font-size: 300%;
   }
+
+  #svg-wrapper {
+    display: block;
+    /* IE & Edge dont render SVG animation */
+    min-height: 240px;
+  }
+
+  footer {
+    position: relative;
+    top: -245px;
+  }
 }
 @media (min-width: 1200px) {
   .main-heading,
@@ -197,3 +216,46 @@ html {
   background: yellow;
 } */
 /* ---------------------------------------------------------------------------- */
+/* 
+.cto-button {
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+  animation-name: xyz;
+}
+
+@keyframes xyz {
+  0% {
+    padding: 1%;
+  }
+
+  25% {
+    padding: 1%;
+  }
+
+  50% {
+    padding: 2%;
+  }
+
+  75% {
+    padding: 3%;
+  }
+
+  100% {
+    padding: 4%;
+  }
+}
+ */
+.cto-button {
+  animation: shadow-pulse 4s 1;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+    padding: 4%;
+    color: var(--lavender);
+  }
+}
