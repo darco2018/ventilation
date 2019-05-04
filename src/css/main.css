@@ -169,15 +169,68 @@ body {
 
 /* ---------- others --------------------- */
 
-html {
-  font-size: 0.7rem;
-}
-
-.display-4 {
-  font-size: 290%;
-}
-
 /* ---------- media queries -------------------- */
+
+@media (max-width: 359px) {
+  html {
+    font-size: 0.7rem;
+  }
+
+  footer,
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .display-3 {
+    font-size: 340%;
+  }
+
+  .display-4 {
+    font-size: 250%;
+  }
+
+  .slogan {
+    margin-left: -25px;
+    color: var(--lavender);
+  }
+}
+@media screen and (max-width: 499px) and (min-width: 360px) {
+  html {
+    font-size: 0.8rem;
+  }
+
+  footer,
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .display-3 {
+    font-size: 340%;
+  }
+
+  .display-4 {
+    font-size: 290%;
+  }
+
+  .slogan {
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 500px) {
+  html {
+    font-size: 0.9rem;
+  }
+
+  .display-4 {
+    font-size: 280%;
+  }
+
+  .jumbotron {
+    margin-bottom: 1.6rem;
+    padding-bottom: 0;
+  }
+}
 
 @media (min-width: 500px) {
   html {
