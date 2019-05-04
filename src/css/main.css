@@ -128,8 +128,6 @@ body {
 /* ----- windy company name --------- */
 
 #svg-wrapper {
-  margin: 0 auto;
-  padding-left: 10%;
   display: none;
 }
 
@@ -139,7 +137,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("/src/img/jumbotron-xs.jpg");
+  background-image: url("../img/jumbotron-xs.jpg");
   background-size: cover;
   z-index: -1;
   opacity: 0.2;
@@ -219,19 +217,33 @@ html {
   }
 
   .overlay {
-    background-image: url("/src/img/jumbotron-lg.jpg");
+    background-image: url("../img/jumbotron-lg.jpg");
   }
 
   .slogan.display-4 {
     font-size: 300%;
   }
-
+  /* ---- windy company name --- */
   #svg-wrapper {
     display: block;
     /* IE & Edge dont render SVG animation */
     min-height: 240px;
+    margin: 0 auto;
+
+    padding-left: 10%;
   }
 
+  @-moz-document url-prefix() {
+    #svg-wrapper svg {
+      position: relative;
+      left: -700px;
+      top: -79px;
+      padding-top: 50px;
+      overflow: visible;
+      opacity: 0.3;
+    }
+  }
+  /* ------------------- */
   footer {
     position: relative;
     top: -245px;
