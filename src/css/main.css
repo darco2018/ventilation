@@ -35,8 +35,6 @@
   --hover-blue: #1a304a;
 
   --jumbotron-height: 430px;
-
-  --blue: black;
 }
 
 /* ------------------- Colors --------------------- */
@@ -164,7 +162,7 @@ body {
 /*------------ cto-animation ------------------*/
 
 .cto-button {
-  animation: shadow-pulse 4s 1;
+  animation: shadow-pulse 4s 2;
 }
 
 @keyframes shadow-pulse {
@@ -177,8 +175,6 @@ body {
     color: var(--lavender);
   }
 }
-
-/* ---------- others --------------------- */
 
 /* ---------- media queries -------------------- */
 
@@ -258,9 +254,6 @@ body {
   }
 }
 
-/* @media (min-width: 576px) {
-} */
-
 @media (min-width: 768px) {
   html {
     font-size: 1.1rem;
@@ -312,10 +305,6 @@ body {
   .sub-heading {
     letter-spacing: 0.5rem;
   }
-}
-
-.unused {
-  color: black;
 }
 
 .popup {
