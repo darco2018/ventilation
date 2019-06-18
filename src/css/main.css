@@ -51,7 +51,8 @@ nav {
   background-color: var(--moonstone-grey);
 }
 
-p {
+p,
+ul {
   color: var(--moonstone-grey);
 }
 
