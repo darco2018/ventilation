@@ -34,13 +34,6 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <!-- 
-    <link
-      rel="stylesheet"
-      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-     -->
-    <link rel="stylesheet" href="css/main.css" />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
@@ -62,7 +55,7 @@
             ><span class="company-name h1">Eur</span>
             <img
               class="rotating mb-3 mr-1"
-              src="./img/rotating-fan-30-30px.png"
+              src="public/images/rotating-fan-30-30px.png"
               alt="rotating fan"
             /><span class="company-name h1">went</span>
           </a>
@@ -91,7 +84,9 @@
             <div
               class="title-wrapper col-12 col-lg-9 col-xl-8  text-center mx-0 ml-lg-3 px-0"
             >
-              <h1 class="display-3 main-heading mt-sm-3 mt-lg-0">WENTYLACJA</h1>
+              <h1 class="display-3 main-heading mt-sm-3 mt-lg-0">
+                WENTYLACJA
+              </h1>
               <h1 class="display-4 sub-heading">
                 CZĘŚCI I&nbsp;AKCESORIA
               </h1>
@@ -109,15 +104,15 @@
                 </h1>
               </div>
             </div>
-            <!-- // [START cto]  -->
+            <!-- // [START cta]  -->
             <div
-              class="cto-wrapper container col-6 text-center pt-5 mt-2 px-0 ml-1 mt-lg-0 pt-lg-0 ml-lg-5 "
+              class="cta-wrapper container col-6 text-center pt-5 mt-2 px-0 ml-1 mt-lg-0 pt-lg-0 ml-lg-5 animated zoomIn slow"
             >
               <button
                 type="button"
-                class="btn cto-button border-0 btn-lg  mt-lg-n3"
+                class="btn cta-button border-0 btn-lg  mt-lg-n3"
               >
-                <span>
+                <span class="highlight">
                   Zadzwoń po 10% rabatu!
                 </span>
                 <div class="mt-1">
@@ -126,19 +121,19 @@
                 </div>
               </button>
             </div>
-            <!-- // [END cto]  -->
+            <!-- // [END cta]  -->
           </div>
         </div>
       </section>
       <!-- // [END jumbotron]  -->
-      <!-- // [START summary]  -->
+      <!-- // [START aboutus]  -->
       <section class="container  mt-4">
         <div class="row">
           <div class="col-12 col-lg-6">
             <h3>
               O&nbsp;nas
             </h3>
-            <p class="lead text-left">
+            <p class="lead text-left wow fadeIn" data-wow-duration="1.8s">
               Od wielu lat reprezentujemy na Śląsku firmę Eureka i zaopatrujemy
               rynek (firmy handlowe i usługowe) w
               <span class="font-weight-bold"
@@ -151,11 +146,7 @@
               zakresie wentylacji grawitacyjnej i mechanicznej.
             </p>
           </div>
-          <!--  <img
-                  class="d-block img-fluid right-bottom-border pr-2 pb-2"
-                  src="img/ventilation-bl-wh.jpg"
-                  alt=""
-                /> -->
+
           <div class="col-0 col-lg-6">
             <div
               id="carousel-1"
@@ -168,21 +159,14 @@
                 <div class="carousel-item active">
                   <img
                     class="d-block img-fluid right-bottom-border pr-2 pb-2"
-                    src="img/kratka_wentylacyjna_1_531x3.jpg"
+                    src="public/images/kratka_wentylacyjna_1_531x3.jpg"
                     alt="First slide"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     class="d-block img-fluid right-bottom-border pr-2 pb-2"
-                    src="img/four-vents-531-3.jpg"
-                    alt="Second slide"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    class="d-block img-fluid right-bottom-border pr-2 pb-2"
-                    src="img/kratka_wentylacyjna_2_531x3.jpg"
+                    src="public/images/kratka_wentylacyjna_8_531x3.jpg"
                     alt="Third slide"
                   />
                 </div>
@@ -191,9 +175,9 @@
           </div>
         </div>
       </section>
-      <!-- // [END summary]  -->
+      <!-- // [END aboutus]  -->
 
-      <!-- // [START quality]  -->
+      <!-- // [START offer]  -->
       <section class="container  mt-4">
         <div class="row d-flex flex-column-reverse flex-lg-row mb-4">
           <div class="col-0 col-lg-6">
@@ -207,39 +191,33 @@
                 <div class="carousel-item active">
                   <img
                     class="d-block img-fluid  left-bottom-border pl-2 pb-2"
-                    src="img/kratka_wentylacyjna_3_531x3.jpg"
+                    src="public/images/kratka_wentylacyjna_3_531x3.jpg"
                     alt="First slide"
                   />
                 </div>
+
                 <div class="carousel-item">
                   <img
                     class="d-block img-fluid  left-bottom-border pl-2 pb-2"
-                    src="img/wall-bl-wh531x3.jpg"
-                    alt="Second slide"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    class="d-block img-fluid  left-bottom-border pl-2 pb-2"
-                    src="img/kratka_wentylacyjna_8_531x3.jpg"
+                    src="public/images/kratka_wentylacyjna_4_531x3.jpg"
                     alt="Third slide"
                   />
                 </div>
               </div>
             </div>
-            <img
-              src="img/kratka_wentylacyjna_4_531x3.jpg"
-              class="img-fluid left-bottom-border pl-2 pb-2"
-              alt=""
-            />
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid  left-bottom-border pl-2 pb-2"
+                src="public/images/kratka_wentylacyjna_4_531x3.jpg"
+                alt="Third slide"
+              />
+            </div>
           </div>
           <div class="col-12 col-lg-6 text-left">
             <h3 class="">Oferta</h3>
-
-            <ul class="lead">
+            <ul class="lead wow fadeIn" data-wow-duration="1.8s">
               <li>kratki wentylacyjne</li>
-              <li>klapy rewizyjne</li>
-              <li>drzwi rewizyjne</li>
+              <li>klapy i drzwi rewizyjne</li>
               <li>osłony budowlane i przemysłowe</li>
               <li>wentylatory osiowe, promieniowe i dachowe</li>
               <li>
@@ -247,30 +225,100 @@
                 grawitacyjną wykorzystującą siłę wiatru)
               </li>
               <li>
-                kanały i kształtki
+                nawietrzaki, kanały i kształtki wentylacyjne
               </li>
-              <li>nawietrzaki</li>
-              <li>anemostaty</li>
+              <li>anemostaty, wyrzutnie dachowe, czerpnie ścienne</li>
               <li>
-                wyrzutnie dachowe
-              </li>
-              <li>
-                czerpnie ścienne
+                drzwi oraz szafki <span class="font-weight-bold">gazowe</span>
               </li>
             </ul>
-            <p class="lead ">
-              Wiele z naszych produktow robiona jest na
+          </div>
+        </div>
+      </section>
+      <!-- // [END offer]  -->
+      <!-- // [START choice]  -->
+      <section class="container  mt-4">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h3 class="">Wybór</h3>
+            <p class="lead wow fadeIn" data-wow-duration="1.8s">
+              Robimy zamówienia na
               <span class="font-weight-bold highlight"
                 >dowolny wymiar i kolor</span
-              >.
-              <br />
-              <br />
-              Zaopatrujemy lokalny rynek nie tylko w artykuły wentylacyjne, ale
-              również w
-              <span class="font-weight-bold"
-                >drzwi oraz szafki <u>gazowe</u></span
               >
-              (wymiary i kolory na podstawie indywidualnych projektów).
+              według indywidualnych projektów.
+            </p>
+          </div>
+          <div class="col-0 col-lg-6">
+            <div
+              id="carousel-3"
+              class="carousel slide pr-2 pb-2"
+              data-interval="6000"
+              data-ride="carousel"
+              data-wrap="true"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block img-fluid right-bottom-border pr-2 pb-2"
+                    src="public/images/kratka_wentylacyjna_5_531x3.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid right-bottom-border pr-2 pb-2"
+                    src="public/images/kratka_wentylacyjna_6_531x3.jpg"
+                    alt="Third slide"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- // [END choice]  -->
+      <!-- // [START quality]  -->
+      <section class="container mt-4">
+        <div class="row d-flex flex-column-reverse flex-lg-row mb-4">
+          <div class="col-0 col-lg-6">
+            <div
+              id="carousel-4"
+              class="carousel slide "
+              data-interval="7000"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block img-fluid  left-bottom-border pl-2 pb-2"
+                    src="public/images/kratka_wentylacyjna_3_531x3.jpg"
+                    alt="First slide"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid  left-bottom-border pl-2 pb-2"
+                    src="public/images/kratka_wentylacyjna_4_531x3.jpg"
+                    alt="Third slide"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 text-left">
+            <h3 class="">Jakość</h3>
+            <p class="lead wow fadeIn" data-wow-duration="1.8s">
+              Wszystkie artykuły metalowe wykonano z najwyższej klasy blach
+              ocynkowanych, aluminiowych i nierdzewnych, a cześć asortymentu
+              zrobiona jest z tworzyw sztucznych. <br />
+              <br />
+
+              <!--   Z tego względu
+              <span class="font-weight-bold"
+                >nasze produkty przewyższają jakością ofertę supermarketów</span
+              >. -->
             </p>
           </div>
         </div>
@@ -283,49 +331,42 @@
             <h3>
               Szybkość
             </h3>
-            <p class="lead text-left">
+            <p class="lead text-left wow fadeIn" data-wow-duration="1.8s">
               Dbamy o szybkie dostawy bezpośrednio do sklepu na terenie Górnego
               Śląska i oferujemy szybką wysyłkę pocztową na terenie kraju.
             </p>
           </div>
           <div class="col-0 col-lg-6">
-            <img
-              class="img-fluid right-bottom-border  pr-2 pb-2"
-              src="img/ventilation-532x3.jpg"
-              alt=""
-            />
+            <div
+              id="carousel-5"
+              class="carousel slide pr-2 pb-2"
+              data-interval="6000"
+              data-ride="carousel"
+              data-wrap="true"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block img-fluid right-bottom-border pr-2 pb-2"
+                    src="public/images/kratka_wentylacyjna_1_531x3.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid right-bottom-border pr-2 pb-2"
+                    src="public/images/kratka_wentylacyjna_8_531x3.jpg"
+                    alt="Third slide"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- // [END speed]  -->
-      <!-- // [START offer]  -->
-      <section class="container mt-4">
-        <div class="row d-flex flex-column-reverse flex-lg-row mb-4">
-          <div class="col-0 col-lg-6">
-            <img
-              src="img/vet-to-left531x3.jpg"
-              class="img-fluid left-bottom-border pl-2 pb-2"
-              alt=""
-            />
-          </div>
-          <div class="col-12 col-lg-6 text-left">
-            <h3 class="">Jakość</h3>
-            <p class="lead">
-              Wszystkie artykuły metalowe wykonano z najwyższej klasy blach
-              ocynkowanych, aluminiowych i nierdzewnych, a cześć asortymentu
-              zrobiona jest z tworzyw sztucznych. <br />
-              <br />
-
-              Z tego względu
-              <span class="font-weight-bold"
-                >nasze produkty przewyższają jakością ofertę supermarketów</span
-              >.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- // [END offer]  -->
     </main>
+    <!-- smoky effect at page-bottom -->
     <div class="container text-center px-0 mt-5" id="svg-wrapper">
       <svg
         version="1.1"
@@ -472,38 +513,39 @@
     </footer>
     <!-- // [END footer]  -->
 
-    <!-- <script src="js/vendor/modernizr-3.7.1.min.js"></script> -->
+    <!-- jQuery with local fallback -->
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+
     <script>
       window.jQuery ||
         document.write(
-          '<script src="js/vendor/jquery-3.4.0.min.js"><\/script>'
+          '<script src="public/javascripts/vendor/jquery.min.js"><\/script>'
         );
     </script>
-    <!-- bootstrap -->
-    <!-- no tether link -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- Bootstrap JS with local fallback for JS and css -->
+
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <!-- 
-    <script src="../node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="../node_modules/tether/dist/js/tether.min.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
- -->
-    <!-- others -->
-   <!--  <script src="js/plugins.js"></script> -->
-    <script src="js/main.js"></script>
+
+    <script>
+      if (!$.fn.modal) {
+        document.write(
+          "<script src='public/javascripts/vendor/bootstrap.min.js'><\/script>"
+        );
+        document.write(
+          '<link rel="stylesheet" href="public/stylesheets/vendor/bootstrap.min.css">'
+        );
+      }
+    </script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>

@@ -1,4 +1,9 @@
 # https://github.com/github/gitignore/blob/master/Node.gitignore
+
+# Custom
+a-private
+node-modules
+
 # Logs
 logs
 *.log
