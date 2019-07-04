@@ -33,16 +33,21 @@
     --smoky-black: #160c0c;
     --accent-blue: #2f5887;
     --hover-blue: #1a304a;
-    --jumbotron-height: 430px
+    --light-greyish: #ebf0f5;
+    --jumbotron-height: 430px;
+
 }
 
 body {
-    max-width: 1600px;
+    max-width: 1600px;    
 }
 
 /* ------------------- Colors --------------------- */
-body,
-nav {
+body {
+    background: var(--light-greyish)
+}
+
+.page-header {
     background: var(--pastel-white)
 }
 
