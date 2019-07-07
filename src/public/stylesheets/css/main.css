@@ -20,7 +20,7 @@
       /* Legacy iOS */ url("../../fonts/roboto-regular-webfont.svg#robotoregular")
         format("svg");
   }
-  
+
 
 :root {
     --body-stack: "robotoregular", sans-serif;
@@ -260,6 +260,11 @@ body {
     html {
         font-size: 1.3rem
     }
+
+h3 {
+    margin-bottom: 50px;
+}
+
     .overlay {
         background-image: url(../../images/jumbotron-lg.jpg)
     }
