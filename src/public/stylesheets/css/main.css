@@ -248,12 +248,20 @@ body {
         font-size: 1.1rem
     }
 
+    .carousel {
+        margin-top: 40px;
+    }
+
     h3 {
         margin-bottom: 30px;
     }
 
     .content-item {
         margin-top: 70px;
+    }
+
+    .content-item:last-of-type {
+        margin-bottom: 70px;
     }
 
     .display-4 {
@@ -276,6 +284,14 @@ body {
 
     .content-item {
         margin-top: 100px;
+    }
+
+    .content-item:last-of-type {
+        margin-bottom: 100px;
+    }
+
+    .carousel {
+        margin-top: 0px;
     }
 
     .overlay {
