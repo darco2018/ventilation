@@ -1,13 +1,7 @@
-/* eslint-disable */
+/* eslint-disable no-undef */
 
-exports.run = function() {
-  console.log("---------------------------- run in init starting...!!");
-  $(document).ready(function() {
+exports.run = function fn() {
+  $(document).ready(function fun() {
     new WOW().init();
   });
 };
-
-
-
-
-
