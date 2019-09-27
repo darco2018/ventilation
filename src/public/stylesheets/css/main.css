@@ -42,6 +42,10 @@ body {
     margin: 0 auto;
 }
 
+.cta-button {
+   padding: 1rem;
+}
+
 /* ------------------- Colors --------------------- */
 body {
     background: var(--light-greyish)
@@ -81,6 +85,10 @@ h6 {
 .cta-button {
     color: #fff;
     background: var(--accent-blue)
+}
+
+.cta-msg {
+    display: none;
 }
 
 .btn:hover {
@@ -240,6 +248,9 @@ body {
     .jumbotron {
         margin-bottom: 1.6rem;
         padding-bottom: 0
+    }
+    .cta-msg {
+        display: inline;
     }
 }
 
