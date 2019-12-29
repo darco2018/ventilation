@@ -3,6 +3,8 @@
 # Custom
 a-private
 node-modules
+dist
+ventilation
 
 # Logs
 logs
